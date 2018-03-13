@@ -1,0 +1,82 @@
+/*my CSS*/
+
+h3 {
+  color: #587073;
+  border: 10px;
+  font-size: 1.5em;
+  font-style: oblique;
+  text-align: center;
+  text-shadow: 5px 5px #add1ef;
+  margin: 15px 10px 5px 10px;
+}
+
+img {
+  border-radius: 5px solid #ddd;
+  border-top-left-radius: 5px;
+  border-top-right-radius: 5px;
+  border-bottom-right-radius: 15px;
+  border-bottom-left-radius: 15px;
+  position: relative;
+  opacity: 1;
+  vertical-align: middle;
+  width: 300px;
+  margin: 25px 50px 15px 50px;
+}
+
+img:hover {
+  opacity: 0.7;
+  filter: alpha(opacity=700);
+  /* For IE8 and earlier */
+}
+
+ul {
+  list-style-type: none;
+  background-color: #9ec9cf;
+  border-top-left-radius: 5px;
+  border-top-right-radius: 5px;
+  text-align: left;
+  margin: 5px 5px 5px 10px;
+}
+
+p {
+  background-color: #8cb3b8;
+  border-bottom-left-radius: 5px;
+  border-bottom-right-radius: 5px;
+  margin: 10px 10px 15px 15px;
+}
+
+.card {
+  border: 1px solid #000;
+  width: 420px;
+  background-color: #e0ffff;
+  text-align: center;
+  border-style: dotted;
+  border-radius: 25px;
+  box-shadow: 10px 10px 5px grey;
+  margin: auto;
+  padding: 5px;
+}
+
+.info {
+  border: 0;
+  text-align: center;
+  width: 400px;
+  margin: 4px;
+  padding: 3px;
+  border-style: groove;
+  border-color: #000;
+  border-radius: 25px;
+  vertical-align: middle;
+}
+
+.facts {
+  font-style: italic;
+  border-left-style: 10px;
+  border-radius: 5px;
+  background-color: #b7e3e8;
+}
+
+.list {
+  font-weight: bold;
+  text-shadow: 1px 2px #c0c0c0;
+}
